@@ -67,6 +67,7 @@
     </Compile>
     <Compile Include="Languages\Language.cs" />
     <Compile Include="LauncherSettings.cs" />
+    <Compile Include="Network\Server.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Serializing\Serializer.cs" />

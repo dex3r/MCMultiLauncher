@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using MultiLauncher.Serializing;
+using MultiLauncher.Network;
 
 namespace MultiLauncher
 {
@@ -17,6 +18,7 @@ namespace MultiLauncher
 
             settings = new LauncherSettings();
             load();
+            new Server();
         }
 
         public LauncherSettings settings;
