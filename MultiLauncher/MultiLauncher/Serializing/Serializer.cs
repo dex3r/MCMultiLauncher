@@ -13,7 +13,7 @@ namespace MultiLauncher.Serializing
         {
             Stream stream = File.Open(filename, FileMode.Create);
             BinaryFormatter bFormatter = new BinaryFormatter();
-            bFormatter.Serialize(stream, objectToSerialize);
+            //bFormatter.Serialize(stream, objectToSerialize);
             stream.Close();
         }
 

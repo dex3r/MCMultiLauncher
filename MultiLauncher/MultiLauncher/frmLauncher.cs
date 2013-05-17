@@ -5,17 +5,15 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
-using MultiLauncher.GUI;
 using MultiLauncher.Serializing;
 
 namespace MultiLauncher
 {
-    public partial class frmLauncher : xForm
+    public partial class frmLauncher : Form
     {
         public frmLauncher()
         {
             InitializeComponent();
-            xInit();
 
             settings = new LauncherSettings();
             load();
