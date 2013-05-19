@@ -70,21 +70,23 @@
     <Compile Include="Network\Server.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Serializing\Serializer.cs" />
     <Compile Include="Serializing\Settings.cs" />
     <Compile Include="SystemDetection.cs" />
+    <Compile Include="Tags.cs" />
     <EmbeddedResource Include="frmLauncher.resx">
       <DependentUpon>frmLauncher.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -113,6 +115,106 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Content Include="Textures\Clients\modded.png" />
+    <Content Include="Textures\Clients\vanilla.png" />
+    <Content Include="Textures\Flags\Albania.png" />
+    <Content Include="Textures\Flags\Algeria.png" />
+    <Content Include="Textures\Flags\Antigua and Barbuda.png" />
+    <Content Include="Textures\Flags\Argentina.png" />
+    <Content Include="Textures\Flags\Australia.png" />
+    <Content Include="Textures\Flags\Austria.png" />
+    <Content Include="Textures\Flags\Bahrain.png" />
+    <Content Include="Textures\Flags\Barbados.png" />
+    <Content Include="Textures\Flags\Belarus.png" />
+    <Content Include="Textures\Flags\Belgium.png" />
+    <Content Include="Textures\Flags\Bosnia and Herzegovina.png" />
+    <Content Include="Textures\Flags\Brazil.png" />
+    <Content Include="Textures\Flags\Bulgaria.png" />
+    <Content Include="Textures\Flags\Canada.png" />
+    <Content Include="Textures\Flags\Chile.png" />
+    <Content Include="Textures\Flags\China.png" />
+    <Content Include="Textures\Flags\Colombia.png" />
+    <Content Include="Textures\Flags\Costa Rica.png" />
+    <Content Include="Textures\Flags\Croatia.png" />
+    <Content Include="Textures\Flags\Cyprus.png" />
+    <Content Include="Textures\Flags\Czech Republic.png" />
+    <Content Include="Textures\Flags\Denmark.png" />
+    <Content Include="Textures\Flags\Dominican Republic.png" />
+    <Content Include="Textures\Flags\Ecuador.png" />
+    <Content Include="Textures\Flags\Egypt.png" />
+    <Content Include="Textures\Flags\Estonia.png" />
+    <Content Include="Textures\Flags\Finland.png" />
+    <Content Include="Textures\Flags\France.png" />
+    <Content Include="Textures\Flags\Georgia.png" />
+    <Content Include="Textures\Flags\Germany.png" />
+    <Content Include="Textures\Flags\Greece.png" />
+    <Content Include="Textures\Flags\Guam.png" />
+    <Content Include="Textures\Flags\Guatemala.png" />
+    <Content Include="Textures\Flags\Guyana.png" />
+    <Content Include="Textures\Flags\Hong Kong.png" />
+    <Content Include="Textures\Flags\Hungary.png" />
+    <Content Include="Textures\Flags\India.png" />
+    <Content Include="Textures\Flags\Indonesia.png" />
+    <Content Include="Textures\Flags\Ireland.png" />
+    <Content Include="Textures\Flags\Israel.png" />
+    <Content Include="Textures\Flags\Italy.png" />
+    <Content Include="Textures\Flags\Japan.png" />
+    <Content Include="Textures\Flags\Jordan.png" />
+    <Content Include="Textures\Flags\Kazakhstan.png" />
+    <Content Include="Textures\Flags\Kuwait.png" />
+    <Content Include="Textures\Flags\Latvia.png" />
+    <Content Include="Textures\Flags\Lithuania.png" />
+    <Content Include="Textures\Flags\Macedonia.png" />
+    <Content Include="Textures\Flags\Malaysia.png" />
+    <Content Include="Textures\Flags\Malta.png" />
+    <Content Include="Textures\Flags\Mexico.png" />
+    <Content Include="Textures\Flags\Moldova.png" />
+    <Content Include="Textures\Flags\Morocco.png" />
+    <Content Include="Textures\Flags\Namibia.png" />
+    <Content Include="Textures\Flags\Netherlands.png" />
+    <Content Include="Textures\Flags\New Zealand.png" />
+    <Content Include="Textures\Flags\Norway.png" />
+    <Content Include="Textures\Flags\Other.png" />
+    <Content Include="Textures\Flags\Pakistan.png" />
+    <Content Include="Textures\Flags\Panama.png" />
+    <Content Include="Textures\Flags\Peru.png" />
+    <Content Include="Textures\Flags\Philippines.png" />
+    <Content Include="Textures\Flags\Poland.png" />
+    <Content Include="Textures\Flags\Portugal.png" />
+    <Content Include="Textures\Flags\Puerto Rico.png" />
+    <Content Include="Textures\Flags\Reunion.png" />
+    <Content Include="Textures\Flags\Romania.png" />
+    <Content Include="Textures\Flags\Russian Federation.png" />
+    <Content Include="Textures\Flags\Saudi Arabia.png" />
+    <Content Include="Textures\Flags\Serbia.png" />
+    <Content Include="Textures\Flags\Singapore.png" />
+    <Content Include="Textures\Flags\Slovakia.png" />
+    <Content Include="Textures\Flags\Slovenia.png" />
+    <Content Include="Textures\Flags\South Africa.png" />
+    <Content Include="Textures\Flags\South Korea.png" />
+    <Content Include="Textures\Flags\Spain.png" />
+    <Content Include="Textures\Flags\Sweden.png" />
+    <Content Include="Textures\Flags\Switzerland.png" />
+    <Content Include="Textures\Flags\Taiwan.png" />
+    <Content Include="Textures\Flags\Thailand.png" />
+    <Content Include="Textures\Flags\Turkey.png" />
+    <Content Include="Textures\Flags\Ukraine.png" />
+    <Content Include="Textures\Flags\United Arab Emirates.png" />
+    <Content Include="Textures\Flags\United Kingdom.png" />
+    <Content Include="Textures\Flags\United States.png" />
+    <Content Include="Textures\Flags\Venezuela.png" />
+    <Content Include="Textures\Flags\Vietnam.png" />
+    <Content Include="Textures\States\empty.png" />
+    <Content Include="Textures\States\full.png" />
+    <Content Include="Textures\States\not empty.png" />
+    <Content Include="Textures\Tags\creative.png" />
+    <Content Include="Textures\Tags\nopv.png" />
+    <Content Include="Textures\Tags\other.png" />
+    <Content Include="Textures\Tags\pve.png" />
+    <Content Include="Textures\Tags\pvp.png" />
+    <Content Include="Textures\Tags\survival.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -19,7 +19,7 @@ namespace MultiLauncher.Network
         public Server()
         {
             Thread th = new Thread(new ParameterizedThreadStart(run));
-            th.Start();
+            //th.Start();
         }
 
         public void run(Object o)
