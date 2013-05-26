@@ -65,7 +65,6 @@
     <Compile Include="frmLauncher.Designer.cs">
       <DependentUpon>frmLauncher.cs</DependentUpon>
     </Compile>
-    <Compile Include="Languages\Language.cs" />
     <Compile Include="LauncherSettings.cs" />
     <Compile Include="Network\Server.cs" />
     <Compile Include="Program.cs" />
@@ -87,6 +86,7 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -209,11 +209,19 @@
     <Content Include="Textures\States\full.png" />
     <Content Include="Textures\States\not empty.png" />
     <Content Include="Textures\Tags\creative.png" />
-    <Content Include="Textures\Tags\nopv.png" />
-    <Content Include="Textures\Tags\other.png" />
+    <Content Include="Textures\Tags\ctf.png" />
+    <Content Include="Textures\Tags\economy.png" />
+    <Content Include="Textures\Tags\factions.png" />
+    <Content Include="Textures\Tags\hungergames.png" />
+    <Content Include="Textures\Tags\minigames.png" />
+    <Content Include="Textures\Tags\parkour.png" />
     <Content Include="Textures\Tags\pve.png" />
     <Content Include="Textures\Tags\pvp.png" />
+    <Content Include="Textures\Tags\rp.png" />
+    <Content Include="Textures\Tags\rpg.png" />
+    <Content Include="Textures\Tags\skyblock.png" />
     <Content Include="Textures\Tags\survival.png" />
+    <Content Include="Textures\Tags\whitelist.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -295,9 +295,6 @@
   <data name="New_Zealand" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\flags\new zealand.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="nopv" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\tags\nopv.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Norway" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\flags\norway.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -403,14 +400,41 @@
   <data name="Other" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\flags\other.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="other2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\textures\tags\other.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="modded" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\clients\modded.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="vanilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\textures\clients\vanilla.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ctf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\tags\ctf.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="economy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\tags\economy.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="factions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\tags\factions.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hungergames" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\tags\hungergames.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minigames" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\tags\minigames.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parkour" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\tags\parkour.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\tags\rp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\tags\rpg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skyblock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\tags\skyblock.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whitelist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\textures\tags\whitelist.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

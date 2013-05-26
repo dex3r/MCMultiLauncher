@@ -20,11 +20,6 @@ namespace MultiLauncher
             settings = new LauncherSettings();
             load();
 
-            cbSType.Items.Add("Any");
-            cbSType.Items.AddRange(Tags.serverTypes);
-            cbSType.ItemHeight = 18;
-            cbSType.SelectedIndex = 0;
-
             cbSCountry.Items.Add("Any");
             cbSCountry.Items.AddRange(Tags.countries);
             cbSCountry.SelectedIndex = 0;
@@ -39,6 +34,15 @@ namespace MultiLauncher
             cbSClient.Items.AddRange(Tags.clients);
             cbSClient.SelectedIndex = 0;
             cbSClient.ItemHeight = 18;
+
+            dgvServers.Rows.Add(new object[] { false, null, "Hello", "21/60", "1.4.7" });
+            dgvServers.Rows.Add(new object[] { true, null, "DeX3r's extreme server 24/7", "212/500", "1.5.2" });
+            dgvServers.Rows.Add(new object[] { true, null, "ForgeCraft1", "7/20", "1.5.2 Forge 7.8.0.710" });
+            dgvServers.Rows.Add(new object[] { false, null, "Hello", "21/60", "1.4.7" });
+            dgvServers.Rows.Add(new object[] { false, null, "Hello", "21/60", "1.4.7" });
+            dgvServers.Rows.Add(new object[] { false, null, "Hello", "21/60", "1.4.7" });
+            dgvServers.Rows.Add(new object[] { false, null, "Hello", "21/60", "1.4.7" });
+            dgvServers.Rows.Add(new object[] { false, null, "Hello", "21/60", "1.4.7" });
         }
 
         public string[] countriesNames;
@@ -59,11 +63,6 @@ namespace MultiLauncher
         private void frmLauncher_FormClosed(object sender, FormClosedEventArgs e)
         {
             save();
-        }
-
-        private void cbSType_DrawItem(object sender, DrawItemEventArgs e)
-        {
-            drawCBWithImages(e, Tags.serverTypes, new Image[] { Resources.pvp, Resources.pve, Resources.survival, Resources.nopv, Resources.creative, Resources.other2 });
         }
 
         private void cbSCountry_DrawItem(object sender, DrawItemEventArgs e)
@@ -133,6 +132,16 @@ namespace MultiLauncher
         private void comboBox1_DrawItem(object sender, DrawItemEventArgs e)
         {
             drawCBWithImages(e, Tags.clients, new Image[] { Resources.vanilla, Resources.modded });
+        }
+
+        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void dgvServers_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
 
     }

@@ -263,6 +263,16 @@ namespace MultiLauncher.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ctf {
+            get {
+                object obj = ResourceManager.GetObject("ctf", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Cyprus {
             get {
                 object obj = ResourceManager.GetObject("Cyprus", resourceCulture);
@@ -303,6 +313,16 @@ namespace MultiLauncher.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap economy {
+            get {
+                object obj = ResourceManager.GetObject("economy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Ecuador {
             get {
                 object obj = ResourceManager.GetObject("Ecuador", resourceCulture);
@@ -336,6 +356,16 @@ namespace MultiLauncher.Properties {
         internal static System.Drawing.Bitmap Estonia {
             get {
                 object obj = ResourceManager.GetObject("Estonia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap factions {
+            get {
+                object obj = ResourceManager.GetObject("factions", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -446,6 +476,16 @@ namespace MultiLauncher.Properties {
         internal static System.Drawing.Bitmap Hungary {
             get {
                 object obj = ResourceManager.GetObject("Hungary", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hungergames {
+            get {
+                object obj = ResourceManager.GetObject("hungergames", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -603,6 +643,16 @@ namespace MultiLauncher.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap minigames {
+            get {
+                object obj = ResourceManager.GetObject("minigames", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap modded {
             get {
                 object obj = ResourceManager.GetObject("modded", resourceCulture);
@@ -663,16 +713,6 @@ namespace MultiLauncher.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap nopv {
-            get {
-                object obj = ResourceManager.GetObject("nopv", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Norway {
             get {
                 object obj = ResourceManager.GetObject("Norway", resourceCulture);
@@ -703,16 +743,6 @@ namespace MultiLauncher.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap other2 {
-            get {
-                object obj = ResourceManager.GetObject("other2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Pakistan {
             get {
                 object obj = ResourceManager.GetObject("Pakistan", resourceCulture);
@@ -726,6 +756,16 @@ namespace MultiLauncher.Properties {
         internal static System.Drawing.Bitmap Panama {
             get {
                 object obj = ResourceManager.GetObject("Panama", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap parkour {
+            get {
+                object obj = ResourceManager.GetObject("parkour", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -823,6 +863,26 @@ namespace MultiLauncher.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap rp {
+            get {
+                object obj = ResourceManager.GetObject("rp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rpg {
+            get {
+                object obj = ResourceManager.GetObject("rpg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Russian_Federation {
             get {
                 object obj = ResourceManager.GetObject("Russian_Federation", resourceCulture);
@@ -856,6 +916,16 @@ namespace MultiLauncher.Properties {
         internal static System.Drawing.Bitmap Singapore {
             get {
                 object obj = ResourceManager.GetObject("Singapore", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap skyblock {
+            get {
+                object obj = ResourceManager.GetObject("skyblock", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1036,6 +1106,16 @@ namespace MultiLauncher.Properties {
         internal static System.Drawing.Bitmap Vietnam {
             get {
                 object obj = ResourceManager.GetObject("Vietnam", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap whitelist {
+            get {
+                object obj = ResourceManager.GetObject("whitelist", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
